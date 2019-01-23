@@ -5,8 +5,8 @@ const http = require('https');
 const app = express();
 
 const port = 3000;
-const spotifyClientId = 'b5602abb639e4bcbbfa2162e136dd37e';
-const spotifyClientSecret = '02342993ff154f218ecef39842f00613';
+const spotifyClientId = '';
+const spotifyClientSecret = '';
 
 app.options('/api/token', (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
