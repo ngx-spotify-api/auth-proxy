@@ -1,0 +1,24 @@
+{
+  "name": "ngx-spotify-api-auth-proxy",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": {
+    "name": "Josha Landsmann",
+    "email": "landsmann@antony-systemhaus.de",
+    "url": "https://github.com/jlandsmann"
+  },
+  "repository": {
+    "url": "https://github.com/ngx-spotify-api/auth-proxy.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngx-spotify-api/auth-proxy/issues"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "query-string": "^6.2.0"
+  }
+}
